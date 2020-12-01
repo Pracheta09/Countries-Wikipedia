@@ -1,0 +1,121 @@
+/* Header Title */
+.header {
+  padding: 20px;
+  text-align: center;
+  background-image: url('../media/globe.jpg');
+}
+
+.header h1 {
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 4px;
+  background-color: white;
+    display: inline-block;
+}
+
+body {
+  font-family: "Frutiger";
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* List */
+ul {
+  height:240px; 
+  overflow:hidden; 
+  overflow-y:scroll; 
+}
+
+.text-link {
+  color: 'white' ;
+  text-decoration: inherit;
+}
+
+/* Country Img */
+.countryimg{
+  width:250px;
+  height:200px
+}
+
+/* Loader */
+.loader {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  border: 10px solid #aaa;
+  border-radius: 50%;
+  border-top: 10px solid #e92309;
+  width: 70px;
+  height: 70px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  margin: 30px;
+  background: #f1f1f1;
+
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Block for List of Countries */
+.block {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Card effect  */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: left;
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
