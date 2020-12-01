@@ -2,7 +2,7 @@
 
 ## About 
 
-Welcome to the Countries-Wikipedia portal
+Welcome to the Countries Wikipedia portal
 
 You can find list of countries and view details of each country like Capital, Flag img, Population, Language, Currency
 
