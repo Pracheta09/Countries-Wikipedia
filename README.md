@@ -73,4 +73,4 @@ Dev-
 
 Prod-
 
-![](app/readme_images/logs_nondev.PNG)
+![](app/readme_images/logs_nondev.png)
